@@ -4,6 +4,9 @@ import React from "react";
 const Navbar = (props) => {
     return (
         <div style={styles.nav}>
+            <div style={{color:'white', marginLeft:15}}>
+                <h1>My Cart App</h1>
+            </div>
             <div style={styles.cartIconContainer} >
                 <img
                     style = {styles.cartIcon}
@@ -25,8 +28,9 @@ const styles = {
         height : 70,
         background :'#4367b2',
         display : 'flex',
-        justifyContent : 'flex-end',
-        alignItems : 'center'
+        justifyContent : 'space-between',
+        alignItems : 'center',
+        // position : ''
     },
     cartIconContainer : {
         position : 'relative'
