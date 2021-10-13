@@ -1,4 +1,3 @@
-import { findByLabelText } from "@testing-library/dom";
 import React from "react";
 
 const Navbar = (props) => {
