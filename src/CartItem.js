@@ -67,7 +67,7 @@ const CartItem = (props)=> {
                     <img 
                         alt="delete" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/512/484/premium/484611.png?token=exp=1633949294~hmac=ef816bf68142f5e556d86476cc2fdc92" 
+                        src="https://cdn-icons-png.flaticon.com/512/3096/3096673.png" 
                         onClick= { () => deleteQuantity(product.id) }
                         />                    
                 </div>
